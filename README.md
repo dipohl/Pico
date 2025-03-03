@@ -1,3 +1,13 @@
+> :exclamation: :exclamation: **END OF LIFE NOTICE** :exclamation: :exclamation:
+>
+> Development of Pico has stopped a very long time ago. **We strongly advise against using Pico for new websites.** You can keep using Pico for existing websites though, it has **no known security issues**. However, please note that you will ultimately run into issues, because Pico wasn't designed for modern PHP versions. You can try the last [`v3.0.0-alpha.2` release](https://github.com/picocms/Pico/releases/tag/v3.0.0-alpha.2), or use the [`pico-3.0` branch](https://github.com/picocms/Pico/tree/pico-3.0). They are as stable as the last "stable" releases, but just didn't make it through the release process before development was abandoned.
+>
+> If you're about to create a new website and want to use a flat file CMS, check out some of Pico's amazing alternatives, like [Grav CMS](https://getgrav.org/), [HTMLy](https://www.htmly.com/), [Automad](https://automad.org/), or [Typemill](https://typemill.net/).
+>
+> If you're interested in taking over Pico's development, please don't hesitate to contact us by creating a [new Issue](https://github.com/picocms/Pico/issues/new) here on GitHub. Please provide some *brief* information about the extent of your commitment, your motivation, and your experience with Pico, PHP programming, and Open Source Software development in general. We're happy to help you take over the baton, but unfortunately are no longer able to maintain this project.
+>
+> :exclamation: :exclamation: **END OF LIFE NOTICE** :exclamation: :exclamation:
+
 Pico
 ====
 
@@ -8,22 +18,6 @@ Pico
 Pico is a stupidly simple, blazing fast, flat file CMS.
 
 Visit us at http://picocms.org/ and see http://picocms.org/about/ for more info.
-
----
-
-### PHP 8.0+ Users
-
-Seeing an `Unparenthesized a ? b : c ? d : e is not supported.` error?
-
-Pico currently has issues with PHP versions newer than 8.0.  This is due to Pico's dependencies, and not Pico itself.  There's currently an "alpha" build of Pico you can download as a [Pre-Bundled Release](https://github.com/picocms/Pico/releases/tag/v3.0.0-alpha.2) that solves this issue.
-
-This "alpha" is **perfectly safe** to use in production, as the *only* changes are **updated dependencies and version number strings**.  If you're curious, you can confirm this by [comparing the changes](https://github.com/picocms/Pico/compare/pico-3.0-alpha) between branches.
-
-More work was intended to be done on this branch, hence the "3.0" label, but it hasn't happened yet.  There's an [on-going discussion](https://github.com/picocms/Pico/issues/608) about getting just these updated dependencies merged in as an official update (either Pico 2.2 or 3.0) as soon as possible.
-
-Sorry for the inconvenience, and thanks to all Pico users for your patience on the matter. ❤️
-
----
 
 Screenshot
 ----------
