@@ -3,7 +3,6 @@ Pico
 
 [![License](https://picocms.github.io/badges/pico-license.svg)](https://github.com/picocms/Pico/blob/master/LICENSE.md)
 [![Version](https://picocms.github.io/badges/pico-version.svg)](https://github.com/picocms/Pico/releases/latest)
-[![Build Status](https://api.travis-ci.org/picocms/Pico.svg?branch=master)](https://travis-ci.org/picocms/Pico)
 [![Libera.Chat](https://picocms.github.io/badges/pico-chat.svg)](https://web.libera.chat/#picocms)
 
 Pico is a stupidly simple, blazing fast, flat file CMS.
