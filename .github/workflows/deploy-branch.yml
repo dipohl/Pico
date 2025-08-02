@@ -20,7 +20,7 @@ jobs:
             contents: write
 
         env:
-            PHP_VERSION: '7.4'
+            PHP_VERSION: '8.1'
             BUILD_DIR: ./build
             WEBSITE_DIR: ./website
 
